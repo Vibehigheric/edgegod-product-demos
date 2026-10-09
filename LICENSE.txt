@@ -1,0 +1,2 @@
+Copyright 2026 EdgeGod.
+Permission is granted to use, copy, modify and redistribute the original synthetic demo code and exercises in this repository with this notice. Provided as-is without warranty. This permission does not grant rights to private EdgeGod products, trademarks, provider data or third-party services.

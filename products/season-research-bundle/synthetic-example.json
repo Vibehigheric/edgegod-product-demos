@@ -1,0 +1,30 @@
+{
+  "synthetic": true,
+  "product": "EdgeGod Season Research Bundle",
+  "rows": [
+    {
+      "event_id": "DEMO-A",
+      "selection": "Example Amber",
+      "probability": 0.8,
+      "outcome": "WIN"
+    },
+    {
+      "event_id": "DEMO-B",
+      "selection": "Example Blue",
+      "probability": 0.7,
+      "outcome": "WIN"
+    },
+    {
+      "event_id": "DEMO-C",
+      "selection": "Example Coral",
+      "probability": 0.6,
+      "outcome": "LOSS"
+    },
+    {
+      "event_id": "DEMO-D",
+      "selection": "Example Dune",
+      "probability": 0.55,
+      "outcome": "PENDING"
+    }
+  ]
+}
