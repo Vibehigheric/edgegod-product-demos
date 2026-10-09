@@ -1,0 +1,16 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/__pycache__": true
+    },
+    "search.exclude": {
+      "**/.venv/**": true,
+      "**/private-data/**": true
+    }
+  }
+}

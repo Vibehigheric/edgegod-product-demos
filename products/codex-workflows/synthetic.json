@@ -1,0 +1,29 @@
+{
+  "scope": "SYNTHETIC_DEMO",
+  "model": "example-v1",
+  "rows": [
+    {
+      "id": "A",
+      "probability": 0.65,
+      "outcome": 1
+    },
+    {
+      "id": "B",
+      "probability": 0.42,
+      "outcome": 0
+    },
+    {
+      "id": "C",
+      "probability": 0.7,
+      "outcome": null
+    }
+  ],
+  "expected": {
+    "resolved": 2,
+    "wins": 1,
+    "losses": 1,
+    "pending": 1,
+    "hit_rate": 0.5,
+    "brier": 0.14945
+  }
+}

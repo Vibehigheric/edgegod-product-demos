@@ -34,3 +34,10 @@ These are shared workflow demonstrations, not full trials of each product. Conce
 - [EdgeGod Command Center](products/command-center/README.md)
 - [EdgeGod Research Desktop](products/desktop/README.md)
 - [EdgeGod SDK](products/sdk/README.md)
+
+## EdgeGod AI workflow kits
+- [EdgeGod Research Prompt Studio](products/prompt-studio/README.md)
+- [EdgeGod Copilot Evidence Pack](products/copilot-pack/README.md)
+- [EdgeGod Codex Workflow Kit](products/codex-workflows/README.md)
+- [EdgeGod VS Code Research Desk](products/vscode-system/README.md)
+- [EdgeGod GPT Framework Library](products/gpt-frameworks/README.md)

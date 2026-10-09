@@ -1,0 +1,21 @@
+{
+  "version": "1.0.0",
+  "files": {
+    "AGENTS.md": "1ed4cb7752409de3d9f775f744cb317fc1b6e89973435af50426c8217559e1b3",
+    "check_demo.py": "130e91c6004679134e1e58f4ee406b88d6b3044ae82236d7f4c339cd1ab9c70f",
+    "day-1.md": "83e862698ce8364976ff7dbf5411af9247df3c37c6f96df6d03a7222e52b1a9f",
+    "day-2.md": "f9984695a1eb7b7ea149b6daae2ae954450127c649371840aa4b90482bcf1a6b",
+    "day-3.md": "5612d8e036ad2e687df3a975031d68756cba9e665a5e0dffde4410b81eb1d0eb",
+    "day-4.md": "305a8a450e32c2001cb27a12bd7bcd4bbf5ab04a9e8f4213ddd2c18eb462ac00",
+    "day-5.md": "f328ce189ae90c809d13dcc3799d0136b94f6859bfd3df64f70bbc9d43b3b493",
+    "day-6.md": "83816719421e03692dbdead4149853e5d87bcfb86cfb7e2211546e671cbe43f5",
+    "day-7.md": "13f747f87dde1ee27d79a9e17c038d8838c82ac22bcb83627ffde76c0808552e",
+    "evaluation.json": "3ece4e40a5002d683331ace4081dd6c30c6446aea47c93b7d72f33310f9223f6",
+    "EVIDENCE_RULES.txt": "00ada78af9712762b6af3852d8ea922c5208005954e3e7cad0fe3d3f11ff74da",
+    "LICENSE.txt": "ee0b1628b4883663af82ab8b085b37ba6d1052ad0e2056cae9cfc4d55f7d3831",
+    "README.md": "08d4d8daabecbe1a5991d92486f920a167def4a9637474edbc27292a804a9f08",
+    "sample-prompt.md": "6cbbb50c3ead3120ca179484bcbd1966279b8ac3a76f5e7e5b4f08c0207ba6f3",
+    "SOURCES.txt": "227c780dcc9781efda3ee4ed00c32d21b0a6aa12844899c4b092336e3d445067",
+    "synthetic.json": "8864396de040bf5e7fb4bbd8c3bf5c4bcc5770d08dcfd4d24ecdb62a2c895802"
+  }
+}

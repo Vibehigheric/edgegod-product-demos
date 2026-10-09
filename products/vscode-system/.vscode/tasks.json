@@ -1,0 +1,14 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "EdgeGod: check synthetic fixture",
+      "type": "process",
+      "command": "python",
+      "args": [
+        "${workspaceFolder}/check_demo.py"
+      ],
+      "problemMatcher": []
+    }
+  ]
+}
