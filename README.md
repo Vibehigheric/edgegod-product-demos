@@ -6,6 +6,14 @@ Seven days is a suggested learning schedule, not an expiring license. All lesson
 
 These are shared workflow demonstrations, not full trials of each product. Concept products have concept walkthroughs only.
 
+## Download and validation
+
+Download the ZIP and SHA256 checksum from [GitHub Releases](https://github.com/Vibehigheric/edgegod-product-demos/releases/latest). Extract it and open `demo.html` in a browser.
+
+From a Git checkout with Python 3.12, run `python scripts/validate_demos.py`. This parses the tracked JSON fixtures and executes all five offline Python demo checks without provider calls or dependencies.
+
+The `python-publish.yml` workflow validates pull requests and main-branch updates. Pushing a new `v*` tag publishes the committed public repository as a ZIP and checksum only after validation succeeds. This repository is not a Python distribution and does not publish to PyPI. Reuse neither an existing release tag nor an existing release asset name to replace a published version; publish a new version instead.
+
 - [EdgeGod Sports Research Starter](products/research-starter/README.md)
 - [EdgeGod Chronological Model Lab](products/model-lab/README.md)
 - [EdgeGod Parlay Survival Lab](products/parlay-survival-lab/README.md)

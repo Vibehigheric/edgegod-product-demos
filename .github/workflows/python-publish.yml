@@ -1,0 +1,40 @@
+name: Validate and publish synthetic demos
+
+on:
+  push:
+    branches: [main]
+    tags: ['v*']
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: '3.12'
+      - run: python scripts/validate_demos.py
+
+  publish:
+    needs: validate
+    if: startsWith(github.ref, 'refs/tags/v')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - name: Package committed public demos
+        run: |
+          git archive --format=zip --output=edgegod-product-demos.zip HEAD
+          sha256sum edgegod-product-demos.zip > edgegod-product-demos.zip.sha256
+      - name: Publish GitHub release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RELEASE_TAG: ${{ github.ref_name }}
+        run: |
+          gh release create "$RELEASE_TAG" --verify-tag --title "EdgeGod synthetic demos $RELEASE_TAG" --notes "Public synthetic learning demos and offline Python checks. No private models, live forecasts, provider data, or PyPI package. Download the ZIP and verify its SHA256 checksum." edgegod-product-demos.zip edgegod-product-demos.zip.sha256
