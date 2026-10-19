@@ -1,0 +1,2 @@
+# Preserve published synthetic fixture/report hashes on Windows and Linux.
+examples/** -text

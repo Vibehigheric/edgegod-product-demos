@@ -43,6 +43,11 @@ The `python-publish.yml` workflow validates pull requests and main-branch update
 - [EdgeGod Research Desktop](products/desktop/README.md)
 - [EdgeGod SDK](products/sdk/README.md)
 
+## Sports analytics and research automation
+
+- [Sports Data Audit Kit — full offline v1](products/sports-data-audit-kit/README.md): CSV/JSON structural checks, synthetic fixtures, tests and HTML/JSON reports. [Open demo](products/sports-data-audit-kit/index.html).
+- [$200 repository setup offer](products/sports-data-audit-kit/SETUP_OFFER.md): one schema adapter, up to three custom rules, CI wiring and handoff. No checkout or booking activated. Public kit code remains reusable under the repository license.
+
 ## EdgeGod AI workflow kits
 - [EdgeGod Research Prompt Studio](products/prompt-studio/README.md)
 - [EdgeGod Copilot Evidence Pack](products/copilot-pack/README.md)
