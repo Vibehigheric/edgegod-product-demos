@@ -43,5 +43,5 @@
   "asof": "2026-01-02T00:00:00+00:00",
   "max_age_hours": 24.0,
   "limits": "Structural audit only. No official identity verification, result grading, settlement, source authentication, model accuracy or licensing certification.",
-  "input_sha256": "cb4bc40c5c8a1349fc5528f57fc5a90ff4486e4cdf00fe573bf8ed25c98d5d59"
+  "input_sha256": "e831d53d45cee70f129ae89fa6b014c9dbbdea07dfaac472b1b9305c1499acad"
 }
