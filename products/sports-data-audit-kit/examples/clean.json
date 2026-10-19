@@ -1,0 +1,22 @@
+[
+  {
+    "sport": "NFL",
+    "event_id": "SYNTHETIC-G1",
+    "event_date": "2026-01-01",
+    "subject_id": "SYNTHETIC-P1",
+    "team_id": "SYNTHETIC-A",
+    "opponent_id": "SYNTHETIC-B",
+    "market": "receiving_yards",
+    "side": "OVER",
+    "line": "49.5",
+    "period": "FULL_GAME",
+    "participation_rule": "APPEARANCE_REQUIRED",
+    "ot_rule": "INCLUDED",
+    "cutoff": "2026-01-01T18:00:00Z",
+    "feature_asof": "2026-01-01T17:00:00Z",
+    "model_id": "SYNTHETIC-M1",
+    "probability": 0.6,
+    "status": "FINAL",
+    "actual": 60
+  }
+]
