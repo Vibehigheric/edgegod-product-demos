@@ -1,5 +1,9 @@
 # Data quality and reporting offers
 
+![Illustrative synthetic marketing graphic](data-audit-csv-ready-illustration.png)
+
+Artwork is AI-generated and illustrative, not an actual customer report. CSV Ready's $29 price is planned: its Gumroad draft is saved but unpublished, and checkout/download has not been tested. The $200 service is a separate scoped implementation offer.
+
 ## $200 Sports Data Audit Repository Setup
 
 [Full scope](../products/sports-data-audit-kit/SETUP_OFFER.md). One authorized repository, one CSV/JSON schema adapter, up to three agreed structural rules, synthetic fixtures, tests, CI wiring, HTML/JSON report, handoff and one revision. Seven days of defect support after acceptance. Agree access, timeline and payment/cancellation terms in writing first. No automatic booking. The public kit is available under its existing license; payment is for implementation, not exclusive code access.
