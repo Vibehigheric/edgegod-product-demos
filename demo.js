@@ -13,3 +13,8 @@ function render(){document.querySelector('#result').textContent=result(Number(do
 document.querySelector('#size').addEventListener('change',render);render();
 document.querySelector('#caption').addEventListener('click',()=>{document.querySelector('#draft').textContent='EDGEGOD · SYNTHETIC WORKFLOW DEMO\n'+chosen.name+'\n'+rows.map(r=>r.selection+': '+r.outcome).join('\n')+'\nOriginal sample retained. Not real picks, wagers or evidence of prediction quality.';});
 function lesson(){let n=Number(document.querySelector('#day').value);document.querySelector('#lesson').textContent=lessons[n-1][1];document.querySelector('#exercise').href=base+'/day-'+n+'.md';}document.querySelector('#day').addEventListener('change',lesson);lesson();
+const merchantSection=document.createElement('section');
+const merchantTitle=document.createElement('h2');merchantTitle.textContent='Bitcoin Merchant Reporting & Health Monitor';
+const merchantText=document.createElement('p');merchantText.textContent='New offline synthetic demonstration: invoice reconciliation, CSV reports, exceptions and simulated health alerts. Telegram dry-run only. No funds, wallet access or live payment processing.';
+const merchantLink=document.createElement('a');merchantLink.href='products/bitcoin-merchant-demo/index.html';merchantLink.textContent='Explore merchant reporting demo →';
+merchantSection.append(merchantTitle,merchantText,merchantLink);document.querySelector('main').append(merchantSection);

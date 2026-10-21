@@ -1,0 +1,58 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>EdgeGod Merchant Demo</title><style>body{max-width:1000px;margin:auto;padding:25px;background:#10231d;color:#edf5ef;font:16px/1.6 system-ui}h1,a{color:#c8ee86}pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#1b352b;padding:20px}@media print{body{background:white;color:black}}</style><a href="../../demo.html">All demos</a><h1>Bitcoin Merchant Reporting & Health Monitor</h1><p>SYNTHETIC DEMO ONLY — NO FUNDS — TELEGRAM DRY RUN</p><p>Invoice reconciliation with integer satoshis. No live exchange rates.</p><pre>{
+  &quot;mode&quot;: &quot;SYNTHETIC_DEMO_ONLY&quot;,
+  &quot;rows&quot;: [
+    {
+      &quot;id&quot;: &quot;SYN-I1&quot;,
+      &quot;due_sats&quot;: 10000,
+      &quot;confirmed_sats&quot;: 10000,
+      &quot;status&quot;: &quot;PAID&quot;
+    },
+    {
+      &quot;id&quot;: &quot;SYN-I2&quot;,
+      &quot;due_sats&quot;: 20000,
+      &quot;confirmed_sats&quot;: 5000,
+      &quot;status&quot;: &quot;PARTIAL&quot;
+    },
+    {
+      &quot;id&quot;: &quot;SYN-I3&quot;,
+      &quot;due_sats&quot;: 30000,
+      &quot;confirmed_sats&quot;: 0,
+      &quot;status&quot;: &quot;UNPAID&quot;
+    },
+    {
+      &quot;id&quot;: &quot;SYN-I4&quot;,
+      &quot;due_sats&quot;: 10000,
+      &quot;confirmed_sats&quot;: 12000,
+      &quot;status&quot;: &quot;OVERPAID&quot;
+    }
+  ],
+  &quot;exceptions&quot;: [
+    {
+      &quot;id&quot;: &quot;SYN-P1&quot;,
+      &quot;reason&quot;: &quot;DUPLICATE_PAYMENT&quot;
+    },
+    {
+      &quot;id&quot;: &quot;SYN-P4&quot;,
+      &quot;reason&quot;: &quot;UNMATCHED_PAYMENT&quot;
+    },
+    {
+      &quot;id&quot;: &quot;SYN-P5&quot;,
+      &quot;reason&quot;: &quot;UNCONFIRMED&quot;
+    }
+  ],
+  &quot;health_alerts&quot;: [
+    &quot;STALE_HEARTBEAT&quot;,
+    &quot;BACKUP_STALE&quot;,
+    &quot;LOW_DISK&quot;
+  ],
+  &quot;telegram&quot;: {
+    &quot;mode&quot;: &quot;DRY_RUN&quot;,
+    &quot;sent&quot;: false,
+    &quot;message&quot;: &quot;STALE_HEARTBEAT, BACKUP_STALE, LOW_DISK&quot;
+  },
+  &quot;limits&quot;: [
+    &quot;No live BTCPay, Telegram, node or wallet connection&quot;,
+    &quot;Export flags are not independent blockchain verification&quot;,
+    &quot;No tax, security or uptime certification; no subscription activated&quot;
+  ]
+}</pre><a href="output/daily.csv">Sample daily CSV</a><p>Print → Save as PDF for a print copy. No generated PDF supplied.</p></html>

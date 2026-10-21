@@ -1,5 +1,7 @@
 # EdgeGod product demos
 
+- [Bitcoin Merchant Reporting & Health Monitor demo](products/bitcoin-merchant-demo/index.html) — synthetic invoice reconciliation and simulated alerts; [source and proposed service scopes](products/bitcoin-merchant-demo/README.md). No live payments or Telegram delivery.
+
 Original synthetic, browser-based learning examples. No private engines, real picks, provider data, API keys or paid packages are included.
 
 Seven days is a suggested learning schedule, not an expiring license. All lessons are accessible immediately. Download once if you want an offline copy; return for the next exercise or a genuine update. Stars and repeated downloads are never required.

@@ -1,0 +1,58 @@
+{
+  "mode": "SYNTHETIC_DEMO_ONLY",
+  "rows": [
+    {
+      "id": "SYN-I1",
+      "due_sats": 10000,
+      "confirmed_sats": 10000,
+      "status": "PAID"
+    },
+    {
+      "id": "SYN-I2",
+      "due_sats": 20000,
+      "confirmed_sats": 5000,
+      "status": "PARTIAL"
+    },
+    {
+      "id": "SYN-I3",
+      "due_sats": 30000,
+      "confirmed_sats": 0,
+      "status": "UNPAID"
+    },
+    {
+      "id": "SYN-I4",
+      "due_sats": 10000,
+      "confirmed_sats": 12000,
+      "status": "OVERPAID"
+    }
+  ],
+  "exceptions": [
+    {
+      "id": "SYN-P1",
+      "reason": "DUPLICATE_PAYMENT"
+    },
+    {
+      "id": "SYN-P4",
+      "reason": "UNMATCHED_PAYMENT"
+    },
+    {
+      "id": "SYN-P5",
+      "reason": "UNCONFIRMED"
+    }
+  ],
+  "health_alerts": [
+    "STALE_HEARTBEAT",
+    "BACKUP_STALE",
+    "LOW_DISK"
+  ],
+  "telegram": {
+    "mode": "DRY_RUN",
+    "sent": false,
+    "message": "STALE_HEARTBEAT, BACKUP_STALE, LOW_DISK"
+  },
+  "limits": [
+    "No live BTCPay, Telegram, node or wallet connection",
+    "Export flags are not independent blockchain verification",
+    "No tax, security or uptime certification; no subscription activated"
+  ]
+}
